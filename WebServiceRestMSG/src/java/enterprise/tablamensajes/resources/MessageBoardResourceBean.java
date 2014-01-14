@@ -1,7 +1,7 @@
-package enterprise.messageboard.resources;
+package enterprise.tablamensajes.resources;
 
-import enterprise.messageboard.entities.Message;
-import enterprise.messageboard.exceptions.NotFoundException;
+import enterprise.tablamensajes.entities.Message;
+import enterprise.tablamensajes.exceptions.NotFoundException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;

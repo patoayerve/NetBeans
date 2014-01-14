@@ -1,9 +1,9 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
     <head>
-        <title></title>
+        <title>Servicio WEB REST</title>
         <meta http-equiv="Content-Type" content="text/html; charset=MacRoman">
-
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'/>
         <style>
             .created {color: green}
             .uniqueId {color: red}
@@ -118,41 +118,41 @@
         </script>
 
 
-        <h1>MessageBoard sample</h1>
+        <h1 align="center">Tabla de Mensajes</h1>
 
         <form name="form0">
 
-            <button type="button" name="GET0" onclick="getMessages()">LIST ALL MESSAGES</button>
+          <button type="button" name="GET0" onclick="getMessages()">MOSTRAR MENSAJES</button>
             
         </form>
 
 
         <form name="form1">
-            Message id#: <input style="width: 4em" type="text" name="messageNumber" />
+            Ingrese el id del mensaje: <input style="width: 4em" type="text" name="messageNumber" />
 
-<button type="button" name="GET1" onclick="getMessage(document.form1.messageNumber.value)">GET MESSAGE</button>
+<button type="button" name="GET1" onclick="getMessage(document.form1.messageNumber.value)">CONSULAR MENSAJE</button>
             
 </form>
 
 <form name="form2">
-    Message id#: <input style="width: 4em" type="text" name="messageNumber" />
+    Ingrese el id del mensaje: <input style="width: 4em" type="text" name="messageNumber" />
 
-<button type="button" name="GET2" onclick="deleteMessage(document.form2.messageNumber.value)">DELETE MESSAGE</button>
+<button type="button" name="GET2" onclick="deleteMessage(document.form2.messageNumber.value)">BORRAR MENSAJE</button>
     
 </form>
 
 <form name="form3">
-    Message: <input type="test" name="messageText" />
+    Mensaje: <input type="test" name="messageText" />
 
-    <button type="button" name="GET2" onclick="addMessage(document.form3.messageText.value)">ADD MESSAGE</button>
+    <button type="button" name="GET2" onclick="addMessage(document.form3.messageText.value)">NUEVO MENSAJE</button>
     
 </form>
 
 
-<h2>MessageBoard</h2>
-    <h3>query: </h3>
+<h2>Tabla de mensajes</h2>
+    <h3>Consulta: </h3>
 <div id="query" style="font-weight: bold"></div>
-    <h3>result</h3>
+    <h3>Resultado</h3>
 <div id="output" style="border: 1px solid black; color: black; height: 18em; width: 100%"></div>
 
 

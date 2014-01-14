@@ -1,4 +1,4 @@
-package enterprise.messageboard.resources;
+package enterprise.tablamensajes.resources;
 
 import javax.ejb.EJB;
 import javax.ejb.Stateless;

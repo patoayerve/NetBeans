@@ -1,6 +1,6 @@
 package enterprise.rest.test;
 
-import enterprise.messageboard.entities.Message;
+import enterprise.tablamensajes.entities.Message;
 import java.net.URI;
 import java.net.URISyntaxException;
 import javax.ws.rs.client.Client;
