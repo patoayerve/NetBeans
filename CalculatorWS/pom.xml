@@ -35,7 +35,7 @@
   <artifactId>MavenCalculator</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>Maven Calculator Service</name>
+  <name>Calculator Service</name>
   <dependencies>
     <dependency>
       <groupId>javax</groupId>
