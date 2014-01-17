@@ -15,9 +15,9 @@ public class MessageHolderSingletonBean {
 
     public MessageHolderSingletonBean() {
         // initial content
-        addMessage("msg0", new Date(0));
-        addMessage("msg1", new Date(1000));
-        addMessage("msg2", new Date(2000));
+        addMessage("Mensaje 0", new Date());
+        addMessage("Mensaje 1", new Date());
+        addMessage("Mensaje 2", new Date());
     }
 
     public List<Message> getMessages() {

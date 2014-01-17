@@ -45,6 +45,6 @@ public class Message {
 
     @Override
     public String toString() {
-        return "<span class='created'>CREATED: " + created + "</span> <span class='uniqueId'>ID: " + uniqueId + "</span> <span class='message'>MESSAGE: " + message + "</span>";
+        return "<span class='created'>CREADO: " + created + "</span> <span class='uniqueId'>ID: " + uniqueId + "</span> <span class='message'>MENSAJE: " + message + "</span>";
     }
 }
